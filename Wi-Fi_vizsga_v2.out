@@ -1,0 +1,155 @@
+Problem:    Wi
+Rows:       40
+Columns:    27 (27 integer, 0 binary)
+Non-zeros:  108
+Status:     INTEGER OPTIMAL
+Objective:  Koltseg = 8721300 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 TeljesenLefed[T1]
+                                1200          1200               
+     2 TeljesenLefed[T2]
+                                 960           950               
+     3 TeljesenLefed[T3]
+                                1600          1600               
+     4 TeljesenLefed[T4]
+                                4830          4810               
+     5 TeljesenLefed[T5]
+                                 800           780               
+     6 TeljesenLefed[T6]
+                                1490          1480               
+     7 TeljesenLefed[T7]
+                                2400          2350               
+     8 TeljesenLefed[T8]
+                                1750          1745               
+     9 TeljesenLefed[T9]
+                                3600          3580               
+    10 TeljesenLefed[T10]
+                                 520           450               
+    11 FelszerelesLimit[T1,Cisco]
+                                   0                          -0 
+    12 FelszerelesLimit[T1,Linksys]
+                                   0                          -0 
+    13 FelszerelesLimit[T1,Aruba]
+                                   0                          -0 
+    14 FelszerelesLimit[T2,Linksys]
+                                   0                          -0 
+    15 FelszerelesLimit[T2,Netgear]
+                                   0                          -0 
+    16 FelszerelesLimit[T3,Cisco]
+                                   0                          -0 
+    17 FelszerelesLimit[T3,Engenius]
+                                   0                          -0 
+    18 FelszerelesLimit[T3,Aruba]
+                                   0                          -0 
+    19 FelszerelesLimit[T4,Cisco]
+                                   0                          -0 
+    20 FelszerelesLimit[T4,Engenius]
+                                   0                          -0 
+    21 FelszerelesLimit[T5,Linksys]
+                                   0                          -0 
+    22 FelszerelesLimit[T5,Netgear]
+                                   0                          -0 
+    23 FelszerelesLimit[T5,Aruba]
+                                   0                          -0 
+    24 FelszerelesLimit[T6,Engenius]
+                                   0                          -0 
+    25 FelszerelesLimit[T6,Netgear]
+                                   0                          -0 
+    26 FelszerelesLimit[T6,Aruba]
+                                   0                          -0 
+    27 FelszerelesLimit[T7,Linksys]
+                                   0                          -0 
+    28 FelszerelesLimit[T7,Engenius]
+                                   0                          -0 
+    29 FelszerelesLimit[T8,Cisco]
+                                   0                          -0 
+    30 FelszerelesLimit[T8,Linksys]
+                                   0                          -0 
+    31 FelszerelesLimit[T8,Aruba]
+                                   0                          -0 
+    32 FelszerelesLimit[T9,Cisco]
+                                   0                          -0 
+    33 FelszerelesLimit[T9,Linksys]
+                                   0                          -0 
+    34 FelszerelesLimit[T9,Netgear]
+                                   0                          -0 
+    35 FelszerelesLimit[T10,Engenius]
+                                   0                          -0 
+    36 FelszerelesLimit[T10,Netgear]
+                                   0                          -0 
+    37 FelszerelesLimit[T10,Aruba]
+                                   0                          -0 
+    38 dbLimit                   125                         125 
+    39 karbanLimit            444200                      445000 
+    40 Koltseg            8.7213e+06                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 felszerel[T1,Cisco]
+                    *              8             0               
+     2 felszerel[T1,Linksys]
+                    *              0             0               
+     3 felszerel[T1,Aruba]
+                    *              0             0               
+     4 felszerel[T2,Linksys]
+                    *              2             0               
+     5 felszerel[T2,Netgear]
+                    *              4             0               
+     6 felszerel[T3,Cisco]
+                    *              8             0               
+     7 felszerel[T3,Engenius]
+                    *              0             0               
+     8 felszerel[T3,Aruba]
+                    *              2             0               
+     9 felszerel[T4,Cisco]
+                    *             29             0               
+    10 felszerel[T4,Engenius]
+                    *              4             0               
+    11 felszerel[T5,Linksys]
+                    *              0             0               
+    12 felszerel[T5,Netgear]
+                    *              0             0               
+    13 felszerel[T5,Aruba]
+                    *              4             0               
+    14 felszerel[T6,Engenius]
+                    *              1             0               
+    15 felszerel[T6,Netgear]
+                    *              1             0               
+    16 felszerel[T6,Aruba]
+                    *              6             0               
+    17 felszerel[T7,Linksys]
+                    *              0             0               
+    18 felszerel[T7,Engenius]
+                    *             20             0               
+    19 felszerel[T8,Cisco]
+                    *              1             0               
+    20 felszerel[T8,Linksys]
+                    *              0             0               
+    21 felszerel[T8,Aruba]
+                    *              8             0               
+    22 felszerel[T9,Cisco]
+                    *             24             0               
+    23 felszerel[T9,Linksys]
+                    *              0             0               
+    24 felszerel[T9,Netgear]
+                    *              0             0               
+    25 felszerel[T10,Engenius]
+                    *              1             0               
+    26 felszerel[T10,Netgear]
+                    *              0             0               
+    27 felszerel[T10,Aruba]
+                    *              2             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
